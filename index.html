@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Teach at Childersburg Elementary School</title>
+<meta name="description" content="Careers, mentoring, professional growth, staff climate, and benefits at Childersburg Elementary School, Talladega County Schools, Alabama.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,500..800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper: #F7F9F6;
+  --surface: #FFFFFF;
+  --tint: #E8F0EA;
+  --ink: #18242C;
+  --muted: #4E5E66;
+  --rule: #C9D5CE;
+  --chalk-bg: #1F4D43;
+  --chalk-ink: #F2F6EF;
+  --chalk-muted: #C8DAD1;
+  --pencil: #F2BC2E;
+  --pencil-hover: #FFCB45;
+  --pencil-ink: #1E1A0E;
+  --graphite: #3B4248;
+  --link: #1C5A4C;
+  --focus: #B87A00;
+  color-scheme: light;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #111816;
+    --surface: #17201D;
+    --tint: #18231F;
+    --ink: #E6ECE8;
+    --muted: #A5B4AD;
+    --rule: #2F3D38;
+    --chalk-bg: #173A32;
+    --chalk-ink: #EEF3EC;
+    --chalk-muted: #B6CAC0;
+    --graphite: #D3DAD5;
+    --link: #8FD3BF;
+    --focus: #F2BC2E;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #111816;
+  --surface: #17201D;
+  --tint: #18231F;
+  --ink: #E6ECE8;
+  --muted: #A5B4AD;
+  --rule: #2F3D38;
+  --chalk-bg: #173A32;
+  --chalk-ink: #EEF3EC;
+  --chalk-muted: #B6CAC0;
+  --graphite: #D3DAD5;
+  --link: #8FD3BF;
+  --focus: #F2BC2E;
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: inherit; }
+html {
+  scroll-padding-top: calc(env(safe-area-inset-top, 0px) + 5rem);
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0 0 auto;
+  height: env(safe-area-inset-top, 0px);
+  z-index: 10;
+  background: var(--paper);
+}
+img, svg { max-width: 100%; }
+h1, h2, h3, h4 {
+  font-family: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  margin: 0;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+p { margin: 0; }
+a { color: var(--link); text-underline-offset: 0.18em; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 4px; }
+
+.wrap { max-width: 72rem; margin: 0 auto; padding: 0 clamp(1.25rem, 4vw, 2.5rem); }
+
+.skip {
+  position: absolute; left: 1rem; top: -4rem; z-index: 30;
+  background: var(--pencil); color: var(--pencil-ink);
+  padding: .6rem 1rem; border-radius: .4rem; font-weight: 700; text-decoration: none;
+}
+.skip:focus { top: calc(env(safe-area-inset-top, 0px) + .75rem); }
+
+/* Header */
+.site-header {
+  position: sticky;
+  top: env(safe-area-inset-top, 0px);
+  z-index: 20;
+  background: var(--paper);
+  border-bottom: 1px solid var(--rule);
+}
+.site-header .wrap {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1.5rem; min-height: 4.25rem;
+}
+.brand {
+  display: flex; align-items: center; gap: .65rem;
+  color: var(--ink); text-decoration: none;
+  font-family: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  font-weight: 700; font-size: 1.08rem; line-height: 1.15;
+}
+.brand svg { width: 12px; height: 46px; transform: rotate(28deg); flex: none; margin: 0 .35rem 0 .2rem; }
+.brand small { display: block; font-family: "Atkinson Hyperlegible", system-ui, sans-serif; font-weight: 400; font-size: .85rem; color: var(--muted); letter-spacing: 0; }
+.nav { display: flex; align-items: center; gap: 1.6rem; }
+.nav ul { display: flex; gap: 1.4rem; list-style: none; margin: 0; padding: 0; }
+.nav ul a { color: var(--ink); text-decoration: none; font-weight: 700; font-size: 1rem; }
+.nav ul a:hover { text-decoration: underline; }
+
+.btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 3rem; padding: .7rem 1.3rem;
+  border-radius: .5rem; border: 2px solid transparent;
+  font-weight: 700; font-size: 1.05rem; line-height: 1.2;
+  text-decoration: none; cursor: pointer;
+}
+.btn-primary { background: var(--pencil); color: var(--pencil-ink); }
+.btn-primary:hover { background: var(--pencil-hover); }
+.btn-primary:focus-visible { outline-color: var(--chalk-ink); }
+.btn-ghost { border-color: currentColor; color: var(--chalk-ink); }
+.btn-ghost:hover { background: rgba(255,255,255,.09); }
+.btn-small { min-height: 2.6rem; padding: .5rem 1rem; font-size: 1rem; background: var(--ink); color: var(--paper); }
+.btn-small:hover { background: var(--link); }
+
+@media (max-width: 820px) {
+  .nav ul { display: none; }
+}
+
+/* Hero */
+.hero {
+  background: var(--chalk-bg);
+  color: var(--chalk-ink);
+  padding: clamp(3.5rem, 9vw, 7rem) 0 clamp(3.5rem, 8vw, 6rem);
+}
+.hero h1 {
+  font-size: clamp(2.9rem, 8.5vw, 5.75rem);
+  font-weight: 800;
+  line-height: .98;
+  letter-spacing: -0.03em;
+}
+.hero h1 span { display: block; }
+.hero .lede {
+  max-width: 37rem;
+  margin-top: 1.75rem;
+  font-size: clamp(1.15rem, 2vw, 1.35rem);
+  line-height: 1.55;
+  color: var(--chalk-muted);
+}
+.actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 2.25rem; }
+@media (min-width: 980px) {
+  .hero .wrap { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 3rem; align-items: end; }
+  .hero h1 { font-size: clamp(4rem, 6.1vw, 5.5rem); }
+  .hero h1 span { white-space: nowrap; }
+  .hero .lede { margin-top: 0; }
+}
+
+/* Sections */
+.section { padding: clamp(3.75rem, 8vw, 6.5rem) 0; }
+.section-head { max-width: 46rem; margin-bottom: clamp(2.25rem, 5vw, 3.5rem); }
+.section-head h2, .why h2 { font-size: clamp(2rem, 4.6vw, 3.1rem); font-weight: 750; }
+.section-head p { margin-top: 1rem; font-size: 1.22rem; color: var(--muted); }
+
+/* Why */
+.why-grid {
+  display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: clamp(2rem, 6vw, 5rem); align-items: start;
+}
+.why-copy p { max-width: 38rem; margin-top: 1.1rem; }
+.why-copy p:first-of-type { margin-top: 1.4rem; font-size: 1.22rem; }
+.lookfor {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-top: 5px solid var(--pencil);
+  border-radius: 0 0 .75rem .75rem;
+  padding: 1.6rem 1.75rem 1.75rem;
+}
+.lookfor h3 { font-size: 1.35rem; margin-bottom: 1rem; }
+
+ul.marks { list-style: none; margin: 0; padding: 0; }
+ul.marks li { position: relative; padding-left: 1.5rem; margin-top: .7rem; }
+ul.marks li:first-child { margin-top: 0; }
+ul.marks li::before {
+  content: ""; position: absolute; left: 0; top: .72em;
+  width: .85rem; height: 3px; border-radius: 2px; background: var(--pencil);
+}
+
+/* Journey */
+.journey { border-top: 1px solid var(--rule); }
+.stops {
+  --track-x: 22px;
+  --gutter: 88px;
+  --start: 20px;
+  --p: 1;
+  position: relative;
+  padding-left: var(--gutter);
+}
+.track {
+  position: absolute; left: calc(var(--track-x) - 1.5px);
+  top: var(--start); bottom: 0; width: 3px;
+  background: var(--rule); border-radius: 3px; overflow: hidden;
+}
+.track-fill {
+  position: absolute; left: 0; top: 0; width: 100%;
+  height: calc(var(--p) * 100%);
+  background: var(--graphite);
+}
+.pencil {
+  position: absolute;
+  left: calc(var(--track-x) - 12px);
+  top: calc(var(--start) + var(--p) * (100% - var(--start)) - 96px);
+  width: 24px; height: 96px;
+  z-index: 3; pointer-events: none;
+  transition: opacity .3s ease;
+}
+.stop { position: relative; padding-bottom: clamp(3.5rem, 8vw, 5.5rem); }
+.stop:last-of-type { padding-bottom: 0; }
+.marker {
+  position: absolute; top: 0;
+  left: calc(var(--track-x) - var(--gutter) - 20px);
+  width: 40px; height: 40px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--paper);
+  border: 3px solid var(--rule);
+  color: var(--muted);
+  font-family: "Bricolage Grotesque", system-ui, sans-serif;
+  font-weight: 800; font-size: 1.05rem; line-height: 1;
+  z-index: 2;
+  transition: background-color .25s ease, border-color .25s ease, color .25s ease;
+}
+.stop.reached .marker { background: var(--pencil); border-color: var(--pencil); color: var(--pencil-ink); }
+.stop h3 { font-size: clamp(1.55rem, 3.2vw, 2.15rem); font-weight: 750; padding-top: .2rem; }
+.stop-lede { max-width: 42rem; margin-top: .85rem; font-size: 1.2rem; color: var(--muted); }
+.stop-body {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem clamp(2rem, 5vw, 3.5rem); margin-top: 2rem;
+}
+.stop-body h4 { font-size: 1.15rem; font-weight: 700; margin-bottom: .85rem; }
+.stop-body p + h4, .stop-body ul + h4, .stop-body ol + h4 { margin-top: 1.75rem; }
+.stop-body p { margin-top: .75rem; }
+.stop-body h4 + p { margin-top: 0; }
+.links { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; margin-top: 1.25rem; font-weight: 700; }
+
+ol.steps { list-style: none; counter-reset: step; margin: 0; padding: 0; }
+ol.steps li { counter-increment: step; position: relative; padding-left: 2.4rem; margin-top: 1rem; }
+ol.steps li:first-child { margin-top: 0; }
+ol.steps li::before {
+  content: counter(step);
+  position: absolute; left: 0; top: .1em;
+  width: 1.65rem; height: 1.65rem; border-radius: 50%;
+  border: 2px solid var(--rule);
+  display: grid; place-items: center;
+  font-size: .85rem; font-weight: 700; color: var(--muted);
+}
+ol.steps strong, ul.marks strong { color: var(--ink); }
+
+.cycle {
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0 1.5rem; margin-top: 2rem; padding: 0; list-style: none;
+}
+.cycle li { position: relative; border-top: 3px solid var(--rule); padding-top: 1.1rem; }
+.cycle li::before {
+  content: ""; position: absolute; left: 0; top: -9px;
+  width: 15px; height: 15px; border-radius: 50%;
+  background: var(--paper); border: 3px solid var(--graphite);
+}
+.cycle .when { display: block; font-size: .95rem; color: var(--muted); font-weight: 700; }
+.cycle h4 { font-size: 1.2rem; margin: .2rem 0 .5rem; }
+.cycle p { font-size: 1.02rem; }
+.note { margin-top: 1.75rem; max-width: 44rem; }
+
+.leaders {
+  margin-top: 2.25rem; max-width: 46rem;
+  background: var(--tint);
+  border-radius: .75rem;
+  padding: 1.4rem 1.6rem;
+}
+.leaders h4 { font-size: 1.2rem; margin-bottom: .4rem; }
+
+/* Climate */
+.climate { background: var(--tint); }
+.commitments {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2.5rem clamp(1.5rem, 4vw, 3rem);
+}
+.commitments h3 { font-size: 1.3rem; margin-bottom: .5rem; }
+.commitments li::before {
+  content: ""; display: block; width: 2.25rem; height: 4px; border-radius: 2px;
+  background: var(--pencil); margin-bottom: 1rem;
+}
+.commitments p { color: var(--muted); }
+
+/* Benefits */
+.table-wrap { overflow-x: auto; }
+table.benefits { width: 100%; border-collapse: collapse; min-width: 0; }
+.benefits th, .benefits td { text-align: left; vertical-align: top; padding: 1.15rem 1.25rem 1.15rem 0; border-bottom: 1px solid var(--rule); }
+.benefits thead th { font-size: .98rem; color: var(--muted); font-weight: 700; border-bottom: 2px solid var(--ink); padding-top: 0; }
+.benefits tbody th { font-family: "Bricolage Grotesque", system-ui, sans-serif; font-size: 1.25rem; font-weight: 700; width: 20%; }
+.benefits td.src { color: var(--muted); font-size: 1rem; width: 30%; padding-right: 0; }
+.fine-print { margin-top: 1.5rem; max-width: 50rem; font-size: 1rem; color: var(--muted); }
+
+/* Visit / apply */
+.visit { background: var(--chalk-bg); color: var(--chalk-ink); }
+.visit-grid { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: clamp(2rem, 6vw, 5rem); align-items: start; }
+.visit h2 { font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 800; }
+.visit p { margin-top: 1.1rem; max-width: 34rem; font-size: 1.2rem; color: var(--chalk-muted); }
+.contact { font-style: normal; border-left: 4px solid var(--pencil); padding-left: 1.4rem; }
+.contact strong { display: block; font-family: "Bricolage Grotesque", system-ui, sans-serif; font-size: 1.3rem; margin-bottom: .35rem; }
+.contact a { color: var(--chalk-ink); font-weight: 700; }
+.contact dl { margin: 1.1rem 0 0; }
+.contact dt { color: var(--chalk-muted); font-size: .98rem; margin-top: .7rem; }
+.contact dd { margin: 0; }
+
+/* Footer */
+.site-footer { padding: 3rem 0 3.5rem; color: var(--muted); font-size: 1rem; }
+details.align { border: 1px solid var(--rule); border-radius: .6rem; background: var(--surface); }
+details.align summary {
+  cursor: pointer; padding: 1rem 1.25rem; font-weight: 700; color: var(--ink);
+  font-family: "Bricolage Grotesque", system-ui, sans-serif; font-size: 1.15rem;
+}
+details.align[open] summary { border-bottom: 1px solid var(--rule); }
+.align-body { padding: 1rem 1.25rem 1.25rem; }
+.align-body table { width: 100%; border-collapse: collapse; }
+.align-body th, .align-body td { text-align: left; vertical-align: top; padding: .7rem 1rem .7rem 0; border-bottom: 1px solid var(--rule); }
+.align-body thead th { color: var(--ink); font-size: .95rem; }
+.align-body td:first-child { font-weight: 700; color: var(--ink); white-space: nowrap; }
+.align-body a { font-weight: 700; }
+.credit { margin-top: 1.75rem; max-width: 52rem; }
+
+/* Responsive */
+@media (max-width: 900px) {
+  .commitments { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cycle { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem 1.5rem; }
+}
+@media (max-width: 760px) {
+  .why-grid, .visit-grid, .stop-body { grid-template-columns: 1fr; }
+  .stops { --track-x: 15px; --gutter: 52px; --start: 16px; }
+  .marker { width: 32px; height: 32px; left: calc(var(--track-x) - var(--gutter) - 16px); font-size: .95rem; border-width: 2px; }
+  .pencil { transform: scale(.8); transform-origin: 50% 100%; }
+}
+@media (max-width: 640px) {
+  .commitments, .cycle { grid-template-columns: 1fr; }
+  .benefits thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .benefits, .benefits tbody, .benefits tr, .benefits th, .benefits td { display: block; width: auto !important; }
+  .benefits tr { padding: 1.1rem 0; border-bottom: 1px solid var(--rule); }
+  .benefits th, .benefits td { border: 0; padding: 0; }
+  .benefits td { margin-top: .4rem; }
+  .benefits td.src::before { content: "Provided through "; }
+  .align-body thead { display: none; }
+  .align-body tr { display: block; padding: .7rem 0; border-bottom: 1px solid var(--rule); }
+  .align-body td { display: block; border: 0; padding: .1rem 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .marker, .pencil { transition: none; }
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="pencil" viewBox="0 0 24 96">
+    <rect x="3" y="0" width="18" height="11" rx="3.5" fill="#E79A9A"/>
+    <rect x="3" y="9" width="18" height="10" fill="#AEB6BD"/>
+    <rect x="3" y="12" width="18" height="1.2" fill="#8C949B"/>
+    <rect x="3" y="15.5" width="18" height="1.2" fill="#8C949B"/>
+    <rect x="3" y="19" width="18" height="52" fill="#F2BC2E"/>
+    <rect x="9.5" y="19" width="5" height="52" fill="#DFA81C"/>
+    <polygon points="3,70 21,70 12,96" fill="#E8C28E"/>
+    <path d="M3 70 Q6 75 9 70 Q12 75 15 70 Q18 75 21 70 Z" fill="#F2BC2E"/>
+    <polygon points="8.54,86 15.46,86 12,96" fill="#2F363C"/>
+  </symbol>
+</svg>
+
+<a class="skip" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top">
+      <svg aria-hidden="true"><use href="#pencil"/></svg>
+      <span>Childersburg Elementary School<small>Careers and staff support</small></span>
+    </a>
+    <nav class="nav" aria-label="Page sections">
+      <ul>
+        <li><a href="#hiring">Hiring</a></li>
+        <li><a href="#mentoring">Mentoring</a></li>
+        <li><a href="#growth">Growth</a></li>
+        <li><a href="#climate">Our culture</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+      </ul>
+      <a class="btn btn-small" href="#visit">Apply</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="wrap">
+      <h1><span>Teach here.</span><span>Grow here.</span><span>Stay here.</span></h1>
+      <div class="hero-side">
+      <p class="lede">Childersburg Elementary is a Pre-K through 5th grade school of about 280 students in Talladega County Schools. We’re looking for teachers and staff who want to keep getting better, and this page shows exactly how we’ll help you do it.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="https://www.tcboe.org/departments/personnel/current-job-openings" target="_blank" rel="noopener">See open positions</a>
+        <a class="btn btn-ghost" href="#mentoring">How we support new teachers</a>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section why" id="why">
+    <div class="wrap why-grid">
+      <div class="why-copy">
+        <h2>A small school where your work gets noticed</h2>
+        <p>With around fifteen classroom teachers, you won’t be a name on a roster here. You’ll know students across every grade, plan alongside a team that shares your hallway, and see your ideas turn into schoolwide practice.</p>
+        <p>We hire Pre-K and K–5 classroom teachers, special education and intervention teachers, instructional assistants, and support staff in child nutrition, custodial, and office roles. Openings change each year, and every current one is posted by the district.</p>
+      </div>
+      <aside class="lookfor" aria-labelledby="lookfor-title">
+        <h3 id="lookfor-title">Who thrives at CES</h3>
+        <ul class="marks">
+          <li>You believe every child can learn to read, write, and reason, and you plan like it.</li>
+          <li>You want honest feedback, and you give it kindly.</li>
+          <li>You’d rather solve a problem with a colleague than alone.</li>
+          <li>You see families as partners in their child’s learning.</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section journey" id="path" aria-labelledby="path-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="path-title">Your path at Childersburg Elementary</h2>
+        <p>From the day you apply to the year you start mentoring others, here’s what to expect at each step.</p>
+      </div>
+
+      <div class="stops">
+        <div class="track" aria-hidden="true"><div class="track-fill"></div></div>
+        <svg class="pencil" aria-hidden="true" focusable="false"><use href="#pencil"/></svg>
+
+        <article class="stop" id="applying">
+          <span class="marker" aria-hidden="true">1</span>
+          <h3>Apply through the district</h3>
+          <p class="stop-lede">Every teaching and support position at Childersburg Elementary is posted by Talladega County Schools and filled through the state’s HireTrue application system.</p>
+          <div class="stop-body">
+            <div>
+              <h4>How to apply</h4>
+              <ol class="steps">
+                <li>Browse current openings on the Talladega County Schools website.</li>
+                <li>Create a free account in HireTrue, the application system used by the Alabama State Department of Education.</li>
+                <li>Complete your profile and attach the documents the posting asks for.</li>
+                <li>Apply to the Childersburg Elementary posting that fits you.</li>
+              </ol>
+              <div class="links">
+                <a href="https://www.tcboe.org/departments/personnel/current-job-openings" target="_blank" rel="noopener">Current openings</a>
+                <a href="https://careersalk12education.org/talladegaco" target="_blank" rel="noopener">Apply on HireTrue</a>
+              </div>
+            </div>
+            <div>
+              <h4>Questions before you apply?</h4>
+              <p>For help with the application itself, call the district personnel office at <a href="tel:+12563155136">(256) 315-5136</a>.</p>
+              <p>To ask about a position or schedule a visit, call the school office at <a href="tel:+12563155525">(256) 315-5525</a>. We’re glad to show you around before you decide.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="stop" id="hiring">
+          <span class="marker" aria-hidden="true">2</span>
+          <h3>Interview with the people you’ll work with</h3>
+          <p class="stop-lede">We hire as a team, so you meet your future colleagues, and they meet you, before anyone makes a decision.</p>
+          <div class="stop-body">
+            <div>
+              <h4>What happens after you apply</h4>
+              <ol class="steps">
+                <li><strong>Screening.</strong> We review each application against the posting’s requirements and Alabama certification.</li>
+                <li><strong>Team interview.</strong> You’ll meet the principal, a grade-level teacher, and a specialist such as a reading coach or special education teacher.</li>
+                <li><strong>A short teaching sample.</strong> Teach a 10-minute reading or math mini-lesson, or talk us through how you’d handle a real classroom scenario. You choose.</li>
+                <li><strong>References and background check.</strong> Alabama requires fingerprint-based background clearance for school employees.</li>
+                <li><strong>Recommendation.</strong> The principal recommends the selected candidate to the superintendent, who brings it to the Board of Education.</li>
+              </ol>
+            </div>
+            <div>
+              <h4>How we decide</h4>
+              <p>Every candidate for a position answers the same core questions and is scored on the same rubric:</p>
+              <ul class="marks" style="margin-top:1rem">
+                <li>Knowledge of how young children learn to read and do math</li>
+                <li>Planning lessons that reach every learner</li>
+                <li>Building a warm, well-run classroom</li>
+                <li>Using student work and data to adjust teaching</li>
+                <li>Working well with colleagues and families</li>
+              </ul>
+              <p>We let every candidate know the outcome, whether or not you’re selected.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="stop" id="mentoring">
+          <span class="marker" aria-hidden="true">3</span>
+          <h3>Your first two years: a mentor and a cohort</h3>
+          <p class="stop-lede">Through the Alabama Teacher Mentor Program, first- and second-year teachers are paired with a mentor who has at least three years of successful teaching experience. At CES, we build more support around that.</p>
+          <div class="stop-body">
+            <div>
+              <h4>Before students arrive</h4>
+              <ul class="marks">
+                <li>New-teacher orientation on school routines, curriculum, technology, and who to ask for what</li>
+                <li>A classroom setup day with your mentor and grade-level team</li>
+              </ul>
+              <h4>Experienced, but new to us?</h4>
+              <p>Teachers who join CES with experience are paired with a building partner for their first semester, so you learn how things work here without starting over.</p>
+            </div>
+            <div>
+              <h4>During the year</h4>
+              <ul class="marks">
+                <li>Weekly mentor check-ins for the first nine weeks, then every other week</li>
+                <li>Release time to watch colleagues teach, at least twice each semester</li>
+                <li>A monthly new-teacher cohort meeting with the principal, built around your questions</li>
+                <li>A midyear conversation about what’s working and what support you still need</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="stop" id="growth">
+          <span class="marker" aria-hidden="true">4</span>
+          <h3>Feedback that helps you grow</h3>
+          <p class="stop-lede">Evaluation here is a year-long conversation about your teaching, grounded in Alabama’s teaching standards and evidence from your classroom.</p>
+          <ol class="cycle">
+            <li>
+              <span class="when">Fall</span>
+              <h4>Set goals</h4>
+              <p>Reflect on your practice and set one or two professional goals with an administrator.</p>
+            </li>
+            <li>
+              <span class="when">All year</span>
+              <h4>Frequent, short visits</h4>
+              <p>Brief walkthroughs plus formal observations, with written feedback within two school days.</p>
+            </li>
+            <li>
+              <span class="when">Winter</span>
+              <h4>Midyear check-in</h4>
+              <p>Look at student progress and your goals together, and adjust your support.</p>
+            </li>
+            <li>
+              <span class="when">Spring</span>
+              <h4>Reflect and plan</h4>
+              <p>A summative conference that names your strengths, one focus for next year, and the support you’ll get.</p>
+            </li>
+          </ol>
+          <p class="note">Every piece of feedback points to specific evidence and ends with a next step, plus a resource or a colleague who can help you take it.</p>
+        </article>
+
+        <article class="stop" id="learning">
+          <span class="marker" aria-hidden="true">5</span>
+          <h3>Keep learning, and lead when you’re ready</h3>
+          <p class="stop-lede">Professional learning at CES is built around what you teach and where you want to grow, not a one-size-fits-all agenda.</p>
+          <div class="stop-body">
+            <div>
+              <h4>Learning that fits you</h4>
+              <ul class="marks">
+                <li>Weekly grade-level PLCs to plan together and study student work</li>
+                <li>State-supported training in literacy through the Alabama Reading Initiative, and in math and science through AMSTI</li>
+                <li>Choice-based sessions on in-service days, matched to your goals</li>
+                <li>Support for National Board Certification, added certifications, and advanced degrees, which also move you up the state salary schedule</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Ways to lead</h4>
+              <ul class="marks">
+                <li>Mentor a new teacher</li>
+                <li>Facilitate your grade-level PLC</li>
+                <li>Share a strategy at a faculty meeting</li>
+                <li>Serve on the leadership, wellness, or school improvement team</li>
+              </ul>
+            </div>
+          </div>
+          <div class="leaders">
+            <h4>Our leaders learn too</h4>
+            <p>Each year our administrators share their own growth goals with staff, ask for anonymous feedback on their leadership, and report back on what they’re changing because of it.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section climate" id="climate" aria-labelledby="climate-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="climate-title">How we treat each other</h2>
+        <p>Teaching is hard to sustain alone. These are the commitments our staff makes to one another.</p>
+      </div>
+      <ul class="commitments">
+        <li>
+          <h3>Protected planning time</h3>
+          <p>Grade-level teams share a planning period, and we keep it free of administrative meetings.</p>
+        </li>
+        <li>
+          <h3>Meetings worth attending</h3>
+          <p>Faculty meetings have a posted agenda and end on time. If something can be an email, it’s an email.</p>
+        </li>
+        <li>
+          <h3>Evenings are yours</h3>
+          <p>No one is expected to answer school email at night or on weekends.</p>
+        </li>
+        <li>
+          <h3>Help without apology</h3>
+          <p>Need a minute, or a hand with a tough moment? Call for backup, and a colleague or administrator steps in.</p>
+        </li>
+        <li>
+          <h3>Celebrate out loud</h3>
+          <p>Staff shout-outs open every faculty meeting, and anyone can post a thank-you on the staff board.</p>
+        </li>
+        <li>
+          <h3>Your voice shapes the school</h3>
+          <p>A staff climate survey each semester, with the results and our response shared at the next faculty meeting.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="benefits" aria-labelledby="benefits-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="benefits-title">Benefits that take care of you</h2>
+        <p>As a Talladega County Schools employee, you receive Alabama’s public education benefits, plus the support that comes with working at CES.</p>
+      </div>
+      <div class="table-wrap">
+        <table class="benefits">
+          <thead>
+            <tr><th scope="col">Benefit</th><th scope="col">What it means for you</th><th scope="col">Provided through</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Salary</th>
+              <td>Pay follows the Alabama state salary schedule and rises with your years of experience and your degree level.</td>
+              <td class="src">State of Alabama and Talladega County Schools</td>
+            </tr>
+            <tr>
+              <th scope="row">Health coverage</th>
+              <td>Medical coverage for you and your family, with optional cancer, dental, hospital indemnity, and vision plans.</td>
+              <td class="src">PEEHIP, the Public Education Employees’ Health Insurance Plan</td>
+            </tr>
+            <tr>
+              <th scope="row">Retirement</th>
+              <td>A pension that pays a monthly benefit for life after you retire, building with every year of service.</td>
+              <td class="src">Teachers’ Retirement System of Alabama</td>
+            </tr>
+            <tr>
+              <th scope="row">Extra savings</th>
+              <td>Optional tax-advantaged retirement savings on top of your pension.</td>
+              <td class="src">RSA-1 Deferred Compensation Plan</td>
+            </tr>
+            <tr>
+              <th scope="row">Paid leave</th>
+              <td>Sick leave that builds every month you work, plus personal leave days.</td>
+              <td class="src">Alabama law and district policy</td>
+            </tr>
+            <tr>
+              <th scope="row">Mentor pay</th>
+              <td>A stipend when you serve as a mentor to a first- or second-year teacher.</td>
+              <td class="src">Alabama Teacher Mentor Program</td>
+            </tr>
+            <tr>
+              <th scope="row">Professional learning</th>
+              <td>State and district training at no cost to you, scheduled during contract time whenever possible.</td>
+              <td class="src">Alabama State Department of Education and Talladega County Schools</td>
+            </tr>
+            <tr>
+              <th scope="row">Calendar</th>
+              <td>A school-year schedule with summer, winter, and spring breaks.</td>
+              <td class="src">Talladega County Schools calendar</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="fine-print">This is a summary. Plan details, eligibility, and costs are set by PEEHIP, the Retirement Systems of Alabama, and Talladega County Schools, and can change. For current specifics, call the district personnel office at <a href="tel:+12563155136">(256) 315-5136</a>.</p>
+    </div>
+  </section>
+
+  <section class="section visit" id="visit" aria-labelledby="visit-title">
+    <div class="wrap visit-grid">
+      <div>
+        <h2 id="visit-title">Come see us</h2>
+        <p>The best way to know if CES is right for you is to walk our halls. Call the school office to schedule a visit, or browse current openings and apply today.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://www.tcboe.org/departments/personnel/current-job-openings" target="_blank" rel="noopener">Browse current openings</a>
+          <a class="btn btn-ghost" href="https://careersalk12education.org/talladegaco" target="_blank" rel="noopener">Apply on HireTrue</a>
+        </div>
+      </div>
+      <address class="contact">
+        <strong>Childersburg Elementary School</strong>
+        235 Pinecrest Drive<br>
+        Childersburg, AL 35044
+        <dl>
+          <dt>School office</dt>
+          <dd><a href="tel:+12563155525">(256) 315-5525</a></dd>
+          <dt>District personnel</dt>
+          <dd><a href="tel:+12563155136">(256) 315-5136</a></dd>
+          <dt>School website</dt>
+          <dd><a href="https://ces.tcboe.org" target="_blank" rel="noopener">ces.tcboe.org</a></dd>
+        </dl>
+      </address>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <details class="align">
+      <summary>How this page aligns with ASIL Standard 6</summary>
+      <div class="align-body">
+        <p style="margin-bottom:1rem">Standard 6, Professional Capacity of School Personnel: effective instructional leaders develop the professional capacity and practice of school personnel to promote each student’s academic success and well-being.</p>
+        <table>
+          <thead><tr><th scope="col">Element</th><th scope="col">Leadership practice</th><th scope="col">Where it appears</th></tr></thead>
+          <tbody>
+            <tr><td>6.1</td><td>Recruit, hire, support, develop, and retain effective and caring staff</td><td><a href="#why">Why CES</a>, <a href="#applying">Apply</a>, <a href="#hiring">Interview and selection</a></td></tr>
+            <tr><td>6.2</td><td>Plan for staff turnover and succession; provide induction and mentoring for new personnel</td><td><a href="#mentoring">Your first two years</a></td></tr>
+            <tr><td>6.3</td><td>Develop staff knowledge and skill through differentiated professional learning</td><td><a href="#learning">Keep learning</a></td></tr>
+            <tr><td>6.5</td><td>Deliver actionable feedback through supervision and evaluation</td><td><a href="#growth">Feedback that helps you grow</a></td></tr>
+            <tr><td>6.6</td><td>Empower and motivate staff toward high-quality practice and continuous learning</td><td><a href="#learning">Learning that fits you, ways to lead</a></td></tr>
+            <tr><td>6.8</td><td>Promote staff health, well-being, and work-life balance</td><td><a href="#climate">How we treat each other</a>, <a href="#benefits">Benefits</a></td></tr>
+            <tr><td>6.9</td><td>Leaders tend to their own learning and effectiveness</td><td><a href="#learning">Our leaders learn too</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
+    <p class="credit">Prepared by Tanner Gamble as an instructional leadership internship project with Childersburg Elementary School. For official school and district information, visit <a href="https://ces.tcboe.org" target="_blank" rel="noopener">ces.tcboe.org</a> and <a href="https://www.tcboe.org" target="_blank" rel="noopener">tcboe.org</a>.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var stops = document.querySelector('.stops');
+  if (!stops) return;
+  var items = Array.prototype.slice.call(stops.querySelectorAll('.stop'));
+  var pencil = stops.querySelector('.pencil');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+  var ticking = false;
+
+  function startOffset() {
+    return parseFloat(getComputedStyle(stops).getPropertyValue('--start')) || 20;
+  }
+
+  function update() {
+    var start = startOffset();
+    var r = stops.getBoundingClientRect();
+    var trackLen = Math.max(1, r.height - start);
+    var target = window.innerHeight * 0.55;
+    var p = (target - (r.top + start)) / trackLen;
+    p = Math.min(1, Math.max(0, p));
+    stops.style.setProperty('--p', p.toFixed(4));
+    var drawn = start + p * trackLen;
+    items.forEach(function (s) {
+      s.classList.toggle('reached', s.offsetTop + start <= drawn + 1);
+    });
+    pencil.style.opacity = p > 0.001 ? '1' : '0';
+  }
+
+  function onScroll() {
+    if (ticking) return;
+    ticking = true;
+    window.requestAnimationFrame(function () { ticking = false; update(); });
+  }
+
+  function init() {
+    window.removeEventListener('scroll', onScroll);
+    window.removeEventListener('resize', onScroll);
+    if (reduce.matches) {
+      stops.style.setProperty('--p', '1');
+      items.forEach(function (s) { s.classList.add('reached'); });
+      pencil.style.opacity = '1';
+      return;
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll);
+    update();
+  }
+
+  if (reduce.addEventListener) reduce.addEventListener('change', init);
+  init();
+})();
+</script>
+</body>
+</html>
